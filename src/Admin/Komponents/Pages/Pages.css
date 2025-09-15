@@ -1,0 +1,794 @@
+.adduser{width: 100%; height: auto; }
+.adduser_box{padding: 30px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;}
+.adduser_box h1{font-size: 30px; color:	#15396A ; margin-bottom: 20px;} 
+.adduser_box h2{font-size: 20px; color: #15396A; margin: 30px 0px 10px 0px; font-weight: 600;}
+.adduser_box input{padding: 15px; width: 100%; background-color: white; font-size: 15px; color: black; border: none; border-radius: 10px;}
+
+
+.head_admin{display: flex; width: 100%;}
+.ny-admin{width: 48%; margin: 0px 20px;}
+.adduser_box button{font-size: 15px; background-color: #15396A; border: none; color: white; border-radius: 10px; margin-left: 20px; margin-top: 40px; padding: 10px 40px;}
+.adduser_box button:hover{background-color: #1c76f3;}
+.add_select h1{font-size: 18px; margin: 0px;}
+.add_select{width: 100% !important; padding: 15px !important;}
+
+.adduser_selected{color: black !important;}
+
+.admins_list{width: 100%; margin-top: 40px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.admins_list h1{font-size: 30px; color: #004ab1; margin: 30px 0px 20px 0px;}
+.admin_table{width: 100%; background-color: rgb(255, 255, 255);  border-radius: 20px; overflow: hidden !important;}
+.admin_table th{ padding: 20px 0px 20px 0px !important; color: white !important; }
+.admin_table td{color: black !important; padding: 20px 0px; }
+.my-thead{border-radius: 20px 20px 0px 0px !important; background-color: #15396A !important; }
+
+.user_deletes{width: 100%; display: flex; justify-content: center;  }  
+.user_deletes button{padding: 12px; background-color: red; display: flex; justify-content: center; border-radius: 10px 12px;  color: white;}
+.user_deletes button:hover{background-color: white !important; color: black !important;}
+.user_name{display: flex; justify-content: center; color: black !important; font-weight: 500;}
+
+.ant-modal-footer{display: none;}
+.ant-modal-body h1{font-size: 25px; color: #113d7c; margin-bottom: 20px;}
+.ant-modal-content{width: 100% !important;}
+.modal_button{display: flex;}
+.modal_box{width: 100% ; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 30px 0px 20px 0px;}
+.modal_button button{font-size: 17px; background-color: #113d7c; margin: 0px 5px; border: none; border-radius: 10px; background-color: #004ab1; color: white; padding: 10px 15px;}
+.modal_button button:hover{background-color: #1c76f3;}
+
+
+
+.custom_select {
+  position: relative;
+  width: 100%; 
+
+}
+
+.custom_select_box { border: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   background-color: white !important;
+  padding: 0px 16px;
+  width: 400px !important;
+  height: 60px !important;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px; 
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.custom_select_list {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  z-index: 999;
+  max-height: 200px;
+  overflow-y: auto;
+    width: 400px !important;
+}
+
+.custom_select_list p {
+  margin: 0;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.custom_select_list p:hover {
+  background-color: #f0f0f0;
+}
+
+.custom_select_box p{color: black;}
+
+
+
+.addpost_box{padding: 50px; border: 3px solid #004906; border-radius: 10px;}
+
+.addpost_box h1{color: #14407e; font-size: 25px; margin-bottom: 20px;}
+.addpost_box h3{display: flex; }
+.addpost_box h3{font-size: 20px !important; color: #1c76f3 !important;}
+.addpost_box input{width: 200px !important;}
+.addpost_image{width: 200px !important;}
+
+.forign_photo {
+  width: 100%; 
+}
+
+
+.forign_photo_box { margin-top: 30px; background-color: white !important;
+  width: 100%;
+  height: 300px; 
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+              rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(99, 99, 99);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+   .addpost_cont{display: flex; width: 100%;}
+   .add_post_boxx{width: 100% !important;}
+.ad_post_img{width: 30% !important;}
+
+.addpost_img {
+  width: 70% !important;
+  max-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  overflow-y: auto;
+  background-color: white !important;
+}
+
+.image-container {
+  position: relative;
+  width: calc(33.33% - 10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.preview-img2 {
+  width: 100%;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* delete icon */
+.delete-icon {
+  position: absolute; display: flex; justify-content: center; align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  background-color: rgba(37, 37, 37, 0.6);
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s ease;
+}
+
+/* hover holatida icon chiqadi */
+.image-container:hover .delete-icon {
+  display: block;
+}
+
+.addpost_img::-webkit-scrollbar {
+  display: none !important;
+}
+
+
+.forign_photo h3{display: flex;}
+.forign_photo h3 span{font-size: 30px; margin-right: 10px;}
+
+
+.addpost_textarea{width: 100%; margin: 20px 0px;}
+.my_textarea{width: 100%; height: 300px; padding: 10px; border-radius: 20px; overflow-x: auto; color: black; font-size: 20px !important; background-color: white; box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;}
+.my_textarea::-webkit-scrollbar {
+  display: none !important;
+}
+
+
+.post_select{width: 30%; margin-top: 20px; display: flex;}
+.post_selected{width: 30%;}
+.post_selected p{font-size: 18px; font-weight: 600; color:#113d7c;}
+.post_select span{font-size: 18px; font-weight: 500; color:#113d7c !important; }
+.post_select p{font-size: 20px;}
+
+
+
+.btn_add{padding: 12px 50px !important; border: none; border-radius: 10px; color: white; font-size: 18px; background-color: #004ab1;}
+.btn_add:hover{background-color: #1c76f3;}
+.btn_add2{margin-left: 20px; background-color: 	#e53935 !important;}
+.btn_add2:hover{background-color: #e65451 !important;}
+
+
+
+.first_textarea{
+  width: 35%; height: 150px;
+}
+
+ .addpost_textarea h1{font-size: 20px; margin: 30px 0px 10px;}
+
+
+
+
+.add_files{margin-top: 80px; padding: 50px; }
+.add_files h1{font-size: 22px !important;}
+.add_files h3{font-size: 20px !important;}
+.add_files h3 span{margin-right: 8px;}
+.upload_file{margin-top: 30px; display: flex; flex-direction: column;}
+.upload_file button{width: 200px; margin-top: 40px; border: none; border-radius: 10px; color: white; padding: 15px 0px; font-size: 15px; background-color: #004ab1;}
+.upload_file button:hover{background-color: #1c76f3;}
+
+
+
+.file_gpg {
+  margin-top: 20px;
+  display: flex;
+}
+
+.file_upload_label {
+  width: 300px;
+  height: 120px;
+  background-color: #ffffff;
+  border: 2px dashed #003d7a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.file_upload_label:hover {
+  background-color: #f0f8ff;
+  border-color: #002447;
+}
+
+.upload_icon {
+  font-size: 28px;
+  color: #003d7a;
+}
+
+.upload_text {
+  font-size: 16px;
+  color: #003d7a;
+  word-break: break-all;
+  padding: 0 10px;
+}
+
+.file_input {
+  display: none;
+}
+
+
+
+.userpost{width: 100% !important;}
+.userpost h1{ font-size: 30px; margin-bottom: 30px; color: #003d7a; display: flex; align-items: center; justify-content: center;}
+
+.user-video-post{  height: auto;  border-radius: 10px;  overflow: hidden; overflow-y: auto;
+  }
+
+  .news_text {
+  height: 130px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 20px 10px;
+  }
+  
+  .news_text::-webkit-scrollbar {
+  display: none; 
+  }
+  .news_text h2{font-size: 18px; color: #002e5b; font-family: "Montserrat"; font-weight: 600;}
+  .news_icons{padding: 0px 10px 0px 10px;}
+  .news_icons p{margin: 10px 0px; display: flex; align-items: center;     font-size: 15px;
+    line-height: 20px;
+    font-weight: 500; color: #7B7A7A;}
+  
+  .news_icons p span{color: #014080; margin-right: 5px; font-size: 17px; margin-top: 5px;}
+  .news_button{width: 100%; display: flex; justify-content: center;}
+  
+  .news_button button{ background-color: #014080;
+  padding:13px 20px ; margin-top: 40px; border: none; border-radius: 10px;
+  font-size: 17px; color: #FFFFFF;font-family: "Montserrat";
+  } 
+  
+  .news_button button:hover{background-color: #024c96;}
+  .news_img{width: 100%; }
+  .news_img img{width: 100%; height: 180px; border-radius: 10px;}
+
+.news_icons_box{display: flex; align-items: center; justify-content: space-between; } 
+
+
+
+.modal_user{margin-top: 30px;}
+.modal_user p{font-size: 20px !important; color: #003d7a; font-weight: 600;}
+.modal_user h2{font-size: 18px !important; height: 200px; overflow: hidden; overflow-y: auto; margin: 0px 0px 20px 0px; font-weight: 500; margin-top: 10px; padding: 10px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.modal_user h4{font-size: 18px !important; height: 100px; overflow: hidden; overflow-y: auto; margin: 0px 0px 20px 0px; font-weight: 500; margin-top: 10px; padding: 10px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+.ant-modal-content{width: 50vw;}
+
+
+
+.news_card{width: 100%; }
+
+
+
+
+
+
+.add_media{margin-top: 50px; padding: 50px;}
+.add_media h1{font-size: 22px !important;}
+.add_media h3{font-size: 20px !important;}
+.add_media h3 span{margin-right: 10px;}
+.media_gpg { 
+  margin-top: 20px;
+  display: flex;
+}
+
+.media_label {
+  width: 300px;
+  height: 120px;
+  background-color: #ffffff;
+  border: 2px dashed #003d7a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+
+.upload_button {
+    width: 200px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 0px;
+    font-size: 15px;
+    background-color: #004ab1;
+}
+
+
+
+.add_student{margin-top: 50px; padding: 50px;}
+.add_student h3 span{margin-right: 5px; font-size: 25px !important; }
+.stud_add{margin-top: 30px; display: flex; flex-direction: column;}
+.stud_add h4{font-size: 15px; margin-bottom: 8px; color: rgb(54, 54, 54);}
+.stud_add input{font-size: 15px; margin-bottom: 20px; padding: 12px 20px; width: 50% !important; border: none;
+border-radius: 10px;}
+.stud_add button{ width: 200px;
+margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 0px;
+    font-size: 15px;
+    background-color: #004ab1;}
+.stud_add button:hover{background-color: #1c76f3 !important;}
+
+
+
+.userownbox{height: auto !important; width: 100%; height: auto; background-color: white;
+border-radius: 10px;  border: 2px solid rgb(247, 184, 12); padding: 20px 10px 20px 10px; }
+
+.userownmenu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.userownmenu button {
+  padding: 15px 20px;
+  margin: 0px 10px;
+  border: 1px solid #003264;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #1c76f3;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.userownmenu button:hover {
+  background-color: white;
+  color: #003d7a;
+  border: 1px solid #3e9fff;
+}
+
+.userownmenu button.active {
+  background-color: white;
+  color: #003d7a;
+  border: 1px solid #3e9fff;
+}
+
+
+
+
+
+
+.edit_box{
+  padding: 40px;
+}
+.edit_box h1{font-size: 30px; margin-bottom: 30px; display: flex; justify-content: center;
+color: 	#003264; padding: 15px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  border-radius: 10px;
+}
+.edit_head{width: 100%; border-radius: 10px; padding: 30px; background-color: white;   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+.edit_head h4{font-size: 23px; color:#004206; display: flex; justify-content: center; margin-bottom: 20px;
+}
+.edit_head_row{display: flex; width: 100%;}
+.edit_head_card{padding: 20px; width: 48%; border: 1px solid #004206; margin: 20px; border-radius: 10px; }
+ 
+.edit_head_card h2{font-size: 19px; color: #14407e; margin-bottom: 15px;}
+.edit_head_card p{ padding: 10px; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; font-size: 15px; margin-bottom: 30px;}
+.edit_head_card input{width: 100%; padding: 15px;  font-size: 15px;
+  border: none; box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; border-radius: 10px;}
+.edit_btn{padding: 10px; width: 100%; margin-top: 20px; border-radius: 10px; border: none; background-color: #003d7a;
+color: white; font-weight: 400; font-size: 16px;}
+.edit_btn:hover{background-color: #005cdd !important;}
+
+
+
+
+
+.edit_menu{padding: 30px;  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; width: 100%; border-radius: 10px; 
+  margin-top: 80px;}
+.edit_menu h3{font-size: 23px; display: flex; justify-content: center; color: #004206; margin-bottom: 20px;}
+.edit_menu_row{display: flex !important; width: 100% !important; align-items: center;}
+.edit_menu_card{width: 40%; padding: 20px; border-radius: 20px; border: 1px solid #004206; margin: 20px;}
+.edit_menu_card p{font-size: 20px; font-weight:700; color: #003d7a;}
+.edit_menu_card2{width: 55%; padding: 30px;}
+
+.edit_menu_card2 h2{font-size: 18px; margin-top: 20px; color: #004906; margin-bottom: 15px;}
+.edit_menu_card2 input{font-size: 15px;
+  padding: 10px; width: 100%; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; border: none; border-radius: 10px;
+}
+
+
+
+.edit_fott{
+  padding: 30px;  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; width: 100%; border-radius: 10px; 
+  margin-top: 80px;
+}
+.edit_fott h2{font-size: 23px; display: flex; justify-content: center; color: #004206; margin-bottom: 20px;}
+.edit_fott_row{display: flex; width: 100%;}
+.edit_fott_card{width: 48%; padding: 25px; border: 1px solid #004206; border-radius: 20px;}
+.edit_fott_card p{font-size: 20px; font-weight:700; color: #003d7a; margin-bottom: 15px;}
+.edit_fott_card textarea{width: 100%; height: 100px; padding: 10px ; border-radius: 10px; border: none;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+
+
+
+
+
+.main-text-h1{font-size: 30px; color: #00521b; margin: 50px 0px ; display: flex; justify-content: center; align-items: center;}
+.ilmiy-box{padding: 30px; border: 2px solid #004906; border-radius: 10px;}
+.ilmiy-box button{padding: 15px 40px; font-size: 16px; border-radius: 10px; border: none; background-color: #003d7a; color: white; margin-top: 30px;}
+.ilmiy-box button:hover{background-color: #005cdd !important;}
+.ilmiy-input input{padding: 15px; margin-top: 20px; border: none; border-radius: 10px; width: 50%; font-size: 18px; 
+border: 2px dashed #003d7a; margin-top: 20px ;}
+
+.ilmiy-box h2{font-size: 22px; color: #003d7a; }
+
+.axborot_postlar{padding: 40px 20px 20px 20px; border: 3px solid #004906; border-radius: 10px;
+   margin-top: 100px ;}
+.axborot_postlar h1{font-size: 25px; display: flex; align-items: center; justify-content: center; 
+  color: #003264; margin-bottom: 30px;}
+.axborot_modal h1{font-size: 24px; color: #00521b;}
+.axborot_modal_button{display: flex; width: 100%; justify-content: center; align-items: center;}
+.axborot_modal_button button{padding: 10px 20px; font-size: 18px; font-weight: 600; border-radius: 10px; border: none;
+background-color: #00521b; color: white; margin: 0px 5px;
+}
+.axborot_red{background-color: rgb(202, 0, 0) !important;}
+.axborot_red:hover{background-color: rgb(255, 67, 67) !important;}
+.axborot_modal_button button:hover{background-color: #01c040;}
+.ant-modal-close{display: none !important;} 
+.axborot_secend_modal button{padding: 10px 15px; border: none; font-size: 16px; 
+  font-weight: 600; border-radius: 10px;  color: white; background-color: #00521b;}
+.axborot_secend_modal button:hover{background-color: #01c040;}
+ .modal_user h3{font-size: 25px; margin-bottom: 30px !important; color: #00521b;}
+
+
+.ilmiy_posts_box{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px;}
+.ilmiy_taqiqot_post{padding: 10px; border: 1px solid #00521b; border-radius: 10px; height: 290px !important;
+overflow: hidden; overflow-y: auto; }
+.ilmiy_taqiqot_post::-webkit-scrollbar{display: none !important;}
+.ilmiy_taqiqot_post h2{font-size: 25px !important; color: #003d7a !important; display: flex; justify-content: center; 
+margin: 30px 0px 50px 0px;}
+.ilmiy-card-row{display: flex; width: 100%; flex-wrap: wrap;}
+.ilmiy-taqiqot_card{display: flex; align-items: center; width: 48%; justify-content: space-between; padding: 10px;
+border: 1px solid #003d7a; border-radius: 10px; margin: 10px;}
+.ilmiy-taqiqot_card a{font-size: 18px !important; color: #000; font-weight: 600;}
+.ilmiy-taqiqot_card a:hover{color: #00366d !important;}
+.ilmiy-taqiqot_button button{padding: 12px ; display: flex; align-items: center; justify-content: center; border: none; border-radius: 50%;
+   background-color: rgb(221, 0, 0); color: white; font-size: 18px;}
+.ilmiy-taqiqot_button button:hover{background-color:rgb(82, 0, 0) !important ;}
+
+.ilmiy_jurnal_post{margin-top: 80px;}
+
+.hujjat-bolimlar{display: flex; width: 100%; flex-wrap: nowrap;}
+
+.talim-selected{width: 100%;  border: 1px solid #00366d !important;}
+.talim_select_list{width: 100% !important;}
+.custom_select{margin: 0px !important;}
+.talim_list_h2{font-size: 20px; color: #004906;}
+
+.talim_posts{padding: 20px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px;}
+.talim_posts h1{font-size: 25px; display: flex; justify-content: center; color: #003d7a;}
+
+
+.bakalavr_box{margin-top: 50px;}
+.magister_box{margin-top: 100px; border: 2px solid #926400 !important;}
+.classtable_box{margin-top: 100px; border: 2px solid rgb(5, 59, 0) !important; }
+.talim_posts_box {padding: 20px; border: 2px solid #00366d; border-radius: 10px;
+height: 260px; overflow: hidden; overflow-y: auto;}
+.talim_posts_box::-webkit-scrollbar{display: none !important;}
+.talim_posts_box h2{font-size: 23px; color: #004906; display: flex; 
+  justify-content: center; margin: 0px 30px 30px 30px;}
+.talim_posts_row{display: flex; flex-wrap: wrap; width: 100%;}
+.talim_col{width: 48%; margin: 10px;padding: 20px; border: 1px solid #004906; border-radius: 10px;}
+.talim_col p{font-size: 18px; font-weight: 600; color: #004906; margin: 10px 0px !important;}
+.talim_card{width: 100%; border: none; padding: 0px; margin: 0px;}
+
+.talim_table_col{width: 100% !important;}
+.talim-language{color: rgb(38, 38, 255) !important; margin: 10px 0px !important ;}
+
+
+.qabul {width: 100%; height: auto;}
+.qabul h1{font-size: 30px; color: #004906; display: flex; justify-content: center; }
+.qabul-kvota-box{display: flex; width: 100%; padding: 30px !important;}
+.qabul-kvota{width: 50%;}
+.qabul-select{width: 60%;}
+.qabul-selected{width: 60% !important;}
+.qabul-dastur{width: 50%;}
+.qabul-box{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px; }
+.qabul-box h2{font-size: 25px; color: #004906; margin-bottom: 30px;}
+.qabul-input h3{ font-size: 20px; color: #004906; margin: 30px 0px 10px ; }
+.qabul-input input{width: 50%; padding: 15px; font-size: 18px; border: none; border-radius: 10px; border: 2px solid #003d7a;}
+.qabul-input textarea{padding: 10px; width:50%; height: 100px !important; border: 2px solid #003d7a; font-size: 18px; border-radius: 10px;}
+.qabul-box button{padding: 15px 25px; border-radius: 10px; border: none; margin-top: 30px; background-color: #003d7a;
+color: white; font-family: 600; font-size: 16px;}
+.qabul-box button:hover{background-color: #005cdd;}
+
+
+.qabul-post-box{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px; }
+.qabul-post-box h1{margin-bottom:40px ;}
+.qabul-post-person{padding: 30px; border: 2px solid #004906; border-radius: 10px; height: 50vh; overflow: hidden;
+overflow-y: auto;}
+.qabul-post-person::-webkit-scrollbar{display: none !important;}
+.qabul-post-person h2{font-size: 25px; color: #00521b; margin-bottom: 30px;}
+
+.qabul-post_row{width: 100%; display: flex; align-items: center; flex-wrap: wrap; }
+.qabul-post_card{width: 31%; margin: 10px; padding: 15px; border-radius: 10px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+.qabul-post_card h2{font-size: 18px; color: #003d7a; margin-bottom: 20px;}
+.qabul-post_card p{font-size: 17px; margin-bottom: 20px !important; color: #000 !important;}
+.qabul-post_card span{font-size: 18px; width: 100%; display: flex; justify-content: space-between; align-items: center;}
+.qabul-post_card span b{padding: 10px; display: flex; justify-content: center; align-items: center;
+  color: white; font-size: 20px !important; border-radius: 50%; background-color: rgb(224, 0, 0);}
+.qabul-post_card span b:hover {background-color:rgb(83, 1, 1) !important;}
+.zoom-link{display: flex; flex-wrap: wrap; width: 100%;}
+.zoom-link-card{width: 48%; margin: 10px;}
+.zoom-link-card h2{font-size: 20px; margin: 20px 0px 10px; }
+.zoom-link-card input{padding: 15px; width: 100%; font-size: 18px; border: none; border-radius: 10px ; border: 2px solid #003d7a;}
+.zoom-link-post{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px; }
+.zoom-link-post h2{font-size: 25px; display: flex; justify-content: center; align-items: center; color: #004906; margin-bottom: 40px; }
+.zoom-post-card{display: flex;}
+.call-delete{width:38px; padding: 10px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background-color: rgb(224, 0, 0);
+color: white;
+}
+
+
+.rahbariyat_card input{background-color: white !important;}
+
+
+
+.xabarlar_box{background-color: white !important; border-radius: 10px; border: 2px dashed #003d7a !important; height: 90vh !important;
+  overflow-y: auto !important;  overflow: hidden;}
+  .xabarlar_box h2{font-size: 25px; color: #003d7a; display: flex; justify-content: center; margin-top: 30px;}
+.xabarlar_row{padding: 30px;}
+.xabarlar_card{padding: 30px ; border: 2px solid #004906; border-radius: 15px ; margin: 40px 0px;}
+.xabarlar_card h1{font-size: 17px !important; color: #00366d; margin-bottom: 10px;}
+.xabarlar_card p{margin: 5px 0px; font-weight: 600; color: #1d1d1d;}
+.xabarlar_card span{color: #003d7a; font-size: 17px !important; font-weight: 600; }
+.xabarlar_p{margin-bottom: 30px !important;}
+
+
+.ariza_box{padding: 20px; border: 2px solid #004ab1; border-radius: 15px;}
+.ariza_row h1{font-size: 27px; color: #003d7a; display: flex; justify-content: center;}
+
+.ariza_card_box{width: 100%; display: flex; flex-wrap: wrap; margin: 40px 0px;}
+.ariza_card{width: 33% !important; margin: 10px 0px;}
+.ariza_card h2{display: flex; align-items: center; font-size: 19px; color: #003d7a;}
+.ariza_card h2 p{color: #3d3d3d; margin-right: 5px;}
+
+
+
+
+
+.ariza_img_box{width: 100%; height: auto; display: flex; flex-wrap: wrap; }
+.ariza_img_card{width: 30%; margin: 20px 15px; padding: 10px; border: 1px solid #003d7a; border-radius: 10px;}
+.ariza_img_card h2{font-size: 16px; color: #004ab1; margin-bottom: 15px;}
+.ariza_img{width: 100%; background-image: url('../../images/Images/photo1.jpg') !important; height: 250px !important;  background-position: center !important; background-size: cover !important; background-repeat: no-repeat !important;}
+
+
+.tuzilma h1{width: 100%; display: flex; justify-content: center; align-items: center; padding: 20px 0px; font-size: 30px; border-radius: 10px;color: #00366d; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.tuzilma_rahbariyat{
+  padding: 25px; border: 2px solid #003d7a; border-radius: 10px; margin-top: 50px;
+}
+
+
+.rahbariyat_card{margin: 30px 0px;}
+.rahbariyat_card h2{font-size: 20px; color: #003264; margin-bottom: 10px;}
+.rahbariyat_card input{width: 50%; padding: 15px; border: 1px solid #00366d; border-radius: 10px; font-size: 16px;}
+.delete_boss{    padding: 25px;
+    border: 2px solid #003d7a;
+    border-radius: 10px;
+    margin-top: 50px;}
+.delete_boss h3{font-size: 25px !important; display: flex; align-items: center; justify-content: center;
+margin-bottom: 30px ; color: #004ab1;}
+.delete_bos_row{display: flex; width: 100%; flex-wrap: wrap !important;}
+.delete_bos_card{width: 48% !important; margin: 10px ; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 20px ; border-radius: 15px ;  display: flex; flex-direction: column; text-align: center;}
+.delete_bos_card img{width: 250px;}
+.delete_bos_card h3{font-size: 20px !important; margin-top: 20px ; margin-bottom: 10px ; color: #00521b;}
+.delete_bos_card p{font-size: 16px !important; color: #464545 ; font-weight: 600; }
+.rahbar_vaxifasi{display: flex; flex-direction: column; margin-top: 10px;}
+.rahbar_vaxifasi span{color: #000; font-weight: 600; }
+.boss_delete_icon{width: 100% !important; display: flex; justify-content: flex-end; align-items: end;
+}
+.boss_delete_icon span{font-size: 22px !important; display: flex; align-items: center; justify-content: center;
+  color: white;  border-radius: 50%; background-color: red; width: 50px; height: 50px;}
+.boss_delete_icon span:hover{background-color: #7B7A7A !important; color: white !important;}
+
+
+
+.ilmiy-input input{background-color: white !important;}
+.qabul-input input{background-color: white !important;}
+.qabul-input textarea{background-color: white !important;}
+.zoom-link-card input{background-color: white !important;}
+
+
+
+
+
+@media (max-width:1024px){
+
+.adduser_box h1{font-size: 20px !important; margin-bottom: 10px !important;}
+.adduser_box{padding: 20px !important;}
+.adduser_box h2{font-size: 17px !important;}
+.adduser_box button{padding: 10px 30px !important;}
+.admins_list h1{font-size: 20px !important;}
+.admin_table th{padding: 10px 0px !important; font-size: 15px !important;}
+.admin_table td{font-size: 10px !important; padding: 10px 0px !important; color: black !important;} 
+.add_media h3{font-size: 17px !important;}
+
+.addpost_box h1{font-size: 18px !important;}
+.custom_select_list{height: auto !important;}
+.custom_select_list p{color: #000 !important;}
+.main-text-h1{margin: 20px 0px !important; font-size: 20px !important;}
+.addpost_box{padding: 20px !important;}
+.forign_photo h3{font-size: 14px !important;}
+.post_select{width: 50% !important; }
+.post_selected{width: 50% !important;}
+.post_select span{font-size: 16px !important;}
+.post_selected p{font-size: 16px !important;}
+.forign_photo_box{height: 150px !important;}
+.preview-img2{height: 140px !important;}
+.addpost_textarea h1{font-size: 17px;}
+.first_textarea{width: 70% !important; height: 120px !important;}
+.add_btn_box{display: flex;}
+.btn_add{padding: 10px 20px !important ; font-size: 15px !important;}
+.upload_button{width: 150px !important; margin-top: 20px !important; padding: 10px 0px !important;}
+.axborot_postlar{margin-top: 70px !important; padding: 30px 10px !important;}
+.axborot_postlar h1{font-size: 20px !important;}
+.adminpanel_box{width: 70% !important;}
+.delete_boss h3{font-size: 20px !important;}
+.delete_bos_card{width: 100% !important;}
+.edit_box{padding: 0px !important;}
+.edit_box h1{font-size: 21px !important;}
+.edit_head h4{font-size: 18px !important;}
+.edit_head{padding: 15px !important;}
+.edit_head_row{display: flex; flex-wrap: wrap;}
+.edit_head_card{width: 100% !important;}
+.edit_menu_row{display: flex; flex-wrap: wrap;}
+.edit_menu_card{width: 100% !important;}
+.edit_menu h3{font-size: 20px;}
+.edit_fott h2{font-size: 20px;}
+.edit_fott_card{width: 100% !important;}
+.xabarlar_box h2{font-size: 21px;}
+.xabarlar_card {margin-top: 0px;}
+.ariza_card{width: 100% !important;  margin: 0px !important;}
+.ariza_img_card{width: 100% !important;}
+.ariza_img_box{padding: 0px 40px !important;}
+.userpost h1{font-size: 21px !important;}
+.userownmenu button{padding: 10px 15px; width: 20% !important; font-size: 16px; margin: 10px !important;}
+.userownmenu{display: flex; flex-wrap: wrap; align-items: center;}
+.own_media_top h2{font-size: 20px !important; padding: 10px !important;}
+.own-img-col{width: 43.5% !important;}
+.own_event_card{width: 100% !important;}
+.custom_select_box{height: 50px !important; width: 270px !important;}
+
+
+}@media(max-width:767px){
+
+
+
+.admins_list{margin-top: 20px !important;}
+
+.adduser_box h1{font-size: 14px !important; display: flex; justify-content: center;}
+.admin_box{padding: 10px !important;}
+.adduser_box{padding: 30px 5px 5px 5px !important; background-color: white !important;}
+.adduser_box h2{font-size: 13px !important;}
+.head_admin{display: flex; flex-direction: column;}
+.ny-admin input{width: 280px !important; border: 1px solid #004ab1;}
+.custom_select{width: 300px !important;}
+.adduser_box button{font-size: 12px !important; margin: 20px ; width: 200px;}
+.admins_list h1{font-size: 14px !important;}
+.admin_table th{font-size: 10px !important; font-weight: 500;}
+.user_deletes button{padding: 6px !important; font-size: 10px !important;}
+.main-text-h1{font-size: 14px !important; padding-top: 20px !important; display: flex !important; justify-content: center !important; align-items: center !important;}
+.addpost_box{border: 1px solid #004906 !important; padding: 10px !important;}
+.addpost_box h1{font-size: 13px !important;}
+.forign_photo h3{margin-top: 20px !important; font-size: 12px !important;}
+.post_select{width: 100% !important; }
+.post_selected{width: 100% !important;}
+.addpost_cont{display: flex; flex-direction: column;}
+.add_post_boxx{width: 200px !important; height: 150px !important;}
+.addpost_img{width: 100% !important; margin-left: 0px !important; height: 164px !important; overflow: hidden; overflow-y: auto; }
+.my_textarea{font-size: 15px !important; height: 200px !important;}
+.first_textarea{height: 100px !important; width: 100% !important;}
+.btn_add{font-size: 12px !important; padding: 10px !important;}
+.addpost_box h3{font-size: 12px !important;}
+.upload_button{font-size: 12px !important;}
+.axborot_postlar h1{font-size: 14px !important;}
+.axborot_postlar{width: 100% !important; border: 1px solid #004906 !important;}
+.post_selected p{font-size: 13px !important;}
+.axborot_modal h1{font-size: 16px !important;}
+
+.axborot_modal_button button{font-size: 13px !important;}
+.ilmiy-box{padding: 10px !important;}
+.add_files {margin-top: 20px !important;}
+
+
+.qabul-input input{padding: 10px !important; font-size: 13px !important;}
+.qabul-input textarea{height: 70px !important; font-size: 13px !important;}
+
+
+.adminpanel_box_top h1{width: 100% !important; display: flex !important; text-align: center; justify-content: center !important; align-items: center !important;}
+
+.adminpanel_box{width: 100% !important; margin: 20px !important; padding: 20px !important;}
+
+.admin_button{margin-left: 0px !important;}
+
+
+.custom_select_list{width: 270px !important;}
+.ilmiy-input input{font-size: 16px !important;}
+.call-delete{width: 30px !important; height: 30px !important; margin-left: 15px !important;}
+.rahbariyat_card input{
+  padding: 10px 15px !important;
+}
+
+.event_card{width: 100% !important;}
+
+}
+
+
+
+
+

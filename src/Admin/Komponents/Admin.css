@@ -1,0 +1,155 @@
+.adminpanel {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: white;
+}
+
+.adminpanel_box {
+  padding: 50px;
+  width: 500px; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: #f9f9f9; 
+}
+
+.adminpanel_box_top{ display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.adminpanel_box_top h1{font-size: 22px; color: rgba(29, 29, 29, 0.993); font-weight: 600; margin-bottom: 15px;}
+.adminpanel_box_top img{width: 70px; margin-bottom: 20px;}
+
+.adminpanel_box h2{font-size: 18px; color: rgba(29, 29, 29, 0.993); margin-top: 30px; font-weight: 500 !important; } 
+.adminpanel_box input{width: 100%;background-color: white;  padding: 10px; font-size: 15px; color: black; border: none; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; margin-top: 10px;}
+.admin_button{font-size: 15px !important; margin-top: 50px !important; padding: 10px 0px; border-radius: 10px; color: white; border: none; width: 100% !important; background-color: rgb(59, 59, 255); } 
+.admin_button:hover{background-color: rgb(47, 47, 172);}
+
+.admin_container{width:100vw !important; height: 100vh; display: flex; overflow: hidden; position: relative;}
+
+.admin_menu{width: 30vw !important; padding: 40px 50px; background-color: #f2f6fc;
+  height: 100vh;}
+.admin_box{width:100%  !important; padding: 40px; height: 100vh; overflow: hidden; overflow-y: auto; background-color: #f9f9f9!important; border-left: 2px solid #00458a;}
+
+
+.admin_logo{display: flex !important;  align-items: center !important;  border: 2px solid #0165c9; margin-bottom: 30px; padding: 10px; width: 100%; background-color: white; border-radius: 10px;}
+.admin_logo img{width: 52px; margin-right: 15px; border-radius: 50%;}
+.admin_logo h1{font-size: 25px; color: 	#0056ac; }
+.admin_menu_list{ padding:  20px ; border: 2px solid #3e9fff; background-color: white; border-radius: 20px;
+height: 76vh; overflow: hidden; overflow-y: auto;}
+.admin_menu_list::-webkit-scrollbar{display: none !important;}
+.admin_menu_card{display: flex;  transition: 0.3s !important; align-items: center; margin: 15px 0px;
+   padding: 10px 5px 10px 10px;  border: 2px solid #3e9fff !important;  border: none; border-radius: 10px; cursor: pointer;}
+.admin_menu_card:hover{  margin-left: 10px !important;}
+
+.admin_menu_card span{color: #0056ac !important; display: flex; justify-content: center; align-items: center; font-size: 20px; margin-right: 15px; width: 50px !important; height: 50px !important; border-radius: 50%;
+border: 2px solid #0056ac ; }
+.admin_menu_card h2{color: #00458a !important; font-size: 16px;}
+.admin_menu_card p{color: #0056ac !important; font-size: 13px; font-weight: 500;}
+
+
+
+.admin_science{width: 50px; height: 50px;}
+.admin_science img{width: 25px;}
+.media_tugma{display: flex !important; }
+.admin_jsx{display: none !important;}
+
+
+.adminpanel_box_top img{width: 80px; height: 80px;}
+
+
+
+
+
+@media (max-width:1024px){
+.admin_box{width: 100vw !important;}
+.admin_menu{ position: fixed; padding: 20px; padding: 10px 5px 5px 5px !important;   z-index: 1000;
+  transition: width 0.3s ease; 
+  overflow: hidden;}
+  .admin_menu.closed{  position: relative !important; width: 12vw !important;   overflow: hidden;}
+  .admin_menu.closed .none_media{display: none !important;}
+.admin_menu.open{width: 40vw !important; padding: 10px 20px 20px 20px !important;}
+.admin_menu.open .admin_jsx{margin-right: 15px !important; }
+.admin_menu.closed .admin_menu_list{height: 85vh !important;}
+.admin_menu.open .admin_menu_list{height: 85vh !important;}
+.admin_menu.closed  .admin_menu_card{height: 40px !important; padding: 0px !important; display: flex; justify-content: center; } 
+.admin_menu.closed .admin_logo h1{margin-left: 20px !important;}
+.admin_menu.closed  .admin_menu_card span{margin-right: 0px !important;}
+.admin_menu.closed  .admin_jsx button{ margin-left: 8px !important;}
+.admin_menu_list{padding: 10px;}
+.admin_jsx{display: flex !important; height: 50px !important; width: 50px !important; margin-right: 30px;}
+.admin_jsx button{ height: 100% !important; width: 100%; background-color: white !important; border: 2px solid #0056ac !important; color: black !important;
+font-size: 20px !important; display: flex; justify-content: center; align-items: center; margin-top: 10px !important;}
+.admin_logo img{width: 35px !important;}
+.admin_logo h1{font-size: 17px;}
+.admin_menu_card h2{font-size: 14px !important; display: flex ;}
+.admin_menu_card p{font-size: 10px; display: flex ;}
+.admin_menu_card{padding: 14px !important; height: 80px;}
+.admin_menu_card span{ margin-right: 5px !important;  font-size: 20px !important; width: 45px !important; border: none !important; height: 45px !important;}
+
+
+
+}
+@media(max-width:767px){
+
+
+.admin_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.admin_menu.closed {
+  width: 0 !important;
+}
+
+.admin_menu.open {
+  width: 70vw !important;
+}
+
+.admin_jsx {
+  position: fixed;
+  top: 10px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  height: 40px !important;
+}
+
+.admin_jsx button {
+  font-size: 15px !important;
+  border-radius: 0px 8px 8px 0px !important;
+  padding: 0px !important;
+  margin-left: -1px !important;
+}
+
+.admin_menu.closed button{margin-left: 5px !important;}
+
+
+.admin_menu.closed   .admin_logo{
+display: none !important;
+}
+.admin_menu.closed   .admin_menu_list{
+display: none !important;
+}
+.admin_jsx.open {
+  left: 70vw;
+}
+
+.admin_menu_card{
+  padding: 5px !important; height: 50px !important;
+}
+.admin_menu_card h2{font-size: 9px !important;}
+  .admin_menu_card p{font-size: 8px !important;}
+.admin_menu_card span{font-size: 15px !important;}
+.admin_logo h1{font-size: 13px !important;}
+.admin_logo img{width: 25px !important;}
+
+}
+
+
+
+
+
+
