@@ -512,9 +512,9 @@ overflow: hidden; overflow-y: auto; }
 .ilmiy_taqiqot_post h2{font-size: 25px !important; color: #003d7a !important; display: flex; justify-content: center; 
 margin: 30px 0px 50px 0px;}
 .ilmiy-card-row{display: flex; width: 100%; flex-wrap: wrap;}
-.ilmiy-taqiqot_card{display: flex; align-items: center; width: 48%; justify-content: space-between; padding: 10px;
+.ilmiy-taqiqot_card{display: flex; align-items: center;  justify-content: space-between; padding: 10px;
 border: 1px solid #003d7a; border-radius: 10px; margin: 10px;}
-.ilmiy-taqiqot_card a{font-size: 18px !important; color: #000; font-weight: 600;}
+.ilmiy-taqiqot_card a{font-size: 18px !important; color: #000; font-weight: 600; margin-left: 15px ;}
 .ilmiy-taqiqot_card a:hover{color: #00366d !important;}
 .ilmiy-taqiqot_button button{padding: 12px ; display: flex; align-items: center; justify-content: center; border: none; border-radius: 50%;
    background-color: rgb(221, 0, 0); color: white; font-size: 18px;}
@@ -522,7 +522,7 @@ border: 1px solid #003d7a; border-radius: 10px; margin: 10px;}
 
 .ilmiy_jurnal_post{margin-top: 80px;}
 
-.hujjat-bolimlar{display: flex; width: 100%; flex-wrap: nowrap;}
+.hujjat-bolimlar{display: flex; width: 100%; flex-wrap:wrap;}
 
 .talim-selected{width: 100%;  border: 1px solid #00366d !important;}
 .talim_select_list{width: 100% !important;}
@@ -542,8 +542,9 @@ height: 260px; overflow: hidden; overflow-y: auto;}
 .talim_posts_box h2{font-size: 23px; color: #004906; display: flex; 
   justify-content: center; margin: 0px 30px 30px 30px;}
 .talim_posts_row{display: flex; flex-wrap: wrap; width: 100%;}
-.talim_col{width: 48%; margin: 10px;padding: 20px; border: 1px solid #004906; border-radius: 10px;}
-.talim_col p{font-size: 18px; font-weight: 600; color: #004906; margin: 10px 0px !important;}
+.talim_col{width: 100%; margin: 10px;padding: 20px; border: 1px solid #004906; border-radius: 10px;
+display: flex ; align-items: center;}
+.talim_col p{font-size: 18px; font-weight: 600; color: #004906; margin: 10px 10px !important;}
 .talim_card{width: 100%; border: none; padding: 0px; margin: 0px;}
 
 .talim_table_col{width: 100% !important;}
@@ -613,7 +614,7 @@ color: white;
 .ariza_row h1{font-size: 27px; color: #003d7a; display: flex; justify-content: center;}
 
 .ariza_card_box{width: 100%; display: flex; flex-wrap: wrap; margin: 40px 0px;}
-.ariza_card{width: 33% !important; margin: 10px 0px;}
+.ariza_card{width: 47% !important; margin: 10px 0px;}
 .ariza_card h2{display: flex; align-items: center; font-size: 19px; color: #003d7a;}
 .ariza_card h2 p{color: #3d3d3d; margin-right: 5px;}
 
@@ -644,7 +645,7 @@ color: white;
 .delete_boss h3{font-size: 25px !important; display: flex; align-items: center; justify-content: center;
 margin-bottom: 30px ; color: #004ab1;}
 .delete_bos_row{display: flex; width: 100%; flex-wrap: wrap !important;}
-.delete_bos_card{width: 48% !important; margin: 10px ; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 20px ; border-radius: 15px ;  display: flex; flex-direction: column; text-align: center;}
+.delete_bos_card{width: 46% !important; margin: 10px ; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 20px ; border-radius: 15px ;  display: flex; flex-direction: column; text-align: center;}
 .delete_bos_card img{width: 250px;}
 .delete_bos_card h3{font-size: 20px !important; margin-top: 20px ; margin-bottom: 10px ; color: #00521b;}
 .delete_bos_card p{font-size: 16px !important; color: #464545 ; font-weight: 600; }
@@ -663,7 +664,7 @@ margin-bottom: 30px ; color: #004ab1;}
 .qabul-input textarea{background-color: white !important;}
 .zoom-link-card input{background-color: white !important;}
 
-
+.tuzilma_button{padding: 15px 60px; background-color: #004ab1; border-radius: 10px; color: white;}
 
 
 

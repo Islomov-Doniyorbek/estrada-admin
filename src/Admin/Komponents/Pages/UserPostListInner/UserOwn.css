@@ -15,7 +15,7 @@
 .own-announ-img{background-image: url('../../../images/Images/photo1.jpg'); height: 250px !important; background-position: center; background-size: cover; background-repeat: no-repeat;}
 
 .own-announ{width: 100%; display: flex; flex-wrap: wrap;}
-.own-announ-box{width: 48% !important; background-color: white !important; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+.own-announ-box{width: 46% !important; background-color: white !important; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
 .own-announ h1{font-size: 20px !important;}
 .own-announ-box{width: 48%; margin: 10px 10px;}
 .own-announ-icon{width: 100%; display: flex !important; justify-content: flex-end !important; align-items: end !important;}
@@ -49,7 +49,7 @@
 
 .own-img-row{width: 100%; height: 100%;  display: flex; flex-wrap: wrap;}
 .own-img-col {
-  width: 30%;
+  width: 28%;
   height: 200px;
   position: relative;  margin: 15px;
 }
@@ -98,7 +98,7 @@
   border-radius: 10px; width: 100%; height: 50vh; background-color: white;}
 .own_media_audio h1{color: rgb(71, 71, 71) ;}
 .own_audio_row{width: 100%; display: flex; flex-wrap: wrap;}
-.own_audio{width: 48%; margin: 10px; display: flex; align-items: center ;}
+.own_audio{width: 70%; margin: 10px; display: flex; align-items: center ;}
 .own_audio_box{width: 100% !important; display: flex; border: 1px solid #003d7a; padding: 15px !important; border-radius: 10px !important;}
 .own_audio_box p{color: black; font-weight: 600; }
 .own_audio_icon{margin-top: 30px !important; padding: 0px 30px 0px 0px; width: 100%; display: flex; justify-content: flex-end; align-items: end;}
@@ -135,7 +135,7 @@
 .other_news_box h1{font-size: 30px; color: #185249; font-family: 'Montserrat'; margin-bottom: 20px;}
 
 .event_row{margin-top: 40px; display: flex; flex-wrap: wrap !important; width: 100%; padding: 10px 100px !important;} 
-.event_card{width: 31%; margin: 10px 10px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px; border-radius: 10px; cursor: pointer;}
+.event_card{width: 46%; margin: 10px 10px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px; border-radius: 10px; cursor: pointer;}
 .event_text{padding: 20px; height: 120px; overflow: hidden; overflow-y: auto;}
 .event_text h2{    color: #1a5950; font-size: 18px;  font-family:'Montserrat'; margin-bottom: 30px;}
   
@@ -178,7 +178,7 @@
 .talim_posts h1{font-size: 17px;}
 .talim_posts_box h2{font-size: 18px !important; margin: 0px !important;}
 .talim_col{width: 100% !important; display: flex; justify-content: space-between; align-items: center;}
-.talim_col p{font-size: 15px !important;}
+.talim_col p{font-size: 15px !important; }
 .qabul h1{font-size: 20px !important;}
 .qabul-box{margin-top: 30px !important;}
 .qabul-box h2{font-size: 18px !important;}

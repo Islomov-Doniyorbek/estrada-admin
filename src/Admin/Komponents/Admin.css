@@ -26,7 +26,7 @@
 
 .admin_container{width:100vw !important; height: 100vh; display: flex; overflow: hidden; position: relative;}
 
-.admin_menu{width: 30vw !important; padding: 40px 50px; background-color: #f2f6fc;
+.admin_menu{width: 40vw !important; padding: 40px 20px; background-color: #f2f6fc;
   height: 100vh;}
 .admin_box{width:100%  !important; padding: 40px; height: 100vh; overflow: hidden; overflow-y: auto; background-color: #f9f9f9!important; border-left: 2px solid #00458a;}
 

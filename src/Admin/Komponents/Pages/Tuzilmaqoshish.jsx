@@ -52,6 +52,8 @@ const Tuzilmaqoshish = () => {
 <h2>Rahbarning emaili :</h2>
 <input type='text' placeholder='admin@gmail.com'/>
 </div>
+
+<button className='tuzilma_button'>Saqlash</button>
       </div>
 
 
