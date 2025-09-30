@@ -109,7 +109,7 @@ const AdminBox = () => {
   </div>
 
   {/* Tugmalar */}
-  <div className="open_axborot">
+  <div className="open_talim">
     <p onClick={() => navigate("/Adminpanel/Yangillik")}>
       Yangillik <span><ImNewspaper /></span>
     </p>
