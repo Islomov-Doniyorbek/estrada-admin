@@ -1,25 +1,14 @@
 import { Input, Modal } from 'antd';
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { FaPencilAlt, FaRegClock, FaTrashAlt } from 'react-icons/fa';
 import { MdNewspaper } from 'react-icons/md';
 import './UserOwn.css'
+import images from '../../../images/Images/photo1.jpg'
 const UserOwnNews = () => {
-     const [userPosts, setUserPosts] = useState([]);
-
-      useEffect(() => {
-        const storedPosts = localStorage.getItem("userPosts");
-        if (storedPosts) {
-          setUserPosts(JSON.parse(storedPosts));
-        }
-      }, []);
 
 
-    
-      const handleDelete = (id) => {
-        const filtered = userPosts.filter(post => post.id !== id);
-        setUserPosts(filtered);
-        localStorage.setItem("userPosts", JSON.stringify(filtered));
-      };
+
+  
   return (
     <div>
         <div className='user-video-post'>
@@ -28,30 +17,71 @@ const UserOwnNews = () => {
   </div>
   
       <div className='userpost_row'>
-              {userPosts.map((post) => (
-                <div key={post.id} className='userpost_card'>
           
-                     <div
-  className="news_img userpost_card_img"
-  style={{ backgroundImage: `url(${post.images?.[0]})` }}
->
+                <div  className='userpost_card'>
+          <div className="news_img userpost_card_img">
+            <img src={images}/>
 </div>
                       <div className='news_text'>
-                        <h2>{post.title}</h2>
+                        <h2>hSHavdgsavdsgjavdgsa</h2>
                       </div>
                       <div className='news_icons_box'>
                         <div className='news_icons'>
-                          <p><span><MdNewspaper /></span>{post.category}</p>
-                          <p><span><FaRegClock /></span>{post.date}</p>
+                          <p><span><MdNewspaper /></span>Yangillik</p>
+                          <p><span><FaRegClock /></span>12.17.16161</p>
                         </div>
                         <div className='new_delete_icon'>
-                          <span onClick={() => handleDelete(post.id)}>
+                          <span >
                             <FaTrashAlt />
                           </span>
                         </div>
                       </div>
                     </div>
-              ))}
+
+
+                               <div  className='userpost_card'>
+          <div className="news_img userpost_card_img">
+            <img src={images}/>
+</div>
+                      <div className='news_text'>
+                        <h2>hSHavdgsavdsgjavdgsa</h2>
+                      </div>
+                      <div className='news_icons_box'>
+                        <div className='news_icons'>
+                          <p><span><MdNewspaper /></span>Yangillik</p>
+                          <p><span><FaRegClock /></span>12.17.16161</p>
+                        </div>
+                        <div className='new_delete_icon'>
+                          <span >
+                            <FaTrashAlt />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+
+                               <div  className='userpost_card'>
+          <div className="news_img userpost_card_img">
+            <img src={images}/>
+</div>
+                      <div className='news_text'>
+                        <h2>hSHavdgsavdsgjavdgsa</h2>
+                      </div>
+                      <div className='news_icons_box'>
+                        <div className='news_icons'>
+                          <p><span><MdNewspaper /></span>Yangillik</p>
+                          <p><span><FaRegClock /></span>12.17.16161</p>
+                        </div>
+                        <div className='new_delete_icon'>
+                          <span >
+                            <FaTrashAlt />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+     
             </div>
       </div>
       

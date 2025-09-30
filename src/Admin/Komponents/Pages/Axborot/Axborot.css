@@ -1,0 +1,106 @@
+.new h1{
+    color: #00521b;  display: flex; justify-content: center; font-size: 28px;
+} 
+.addpost_textarea h1{font-size: 22px; display: flex; justify-content: flex-start; margin-top: 50px; margin-bottom: 20px;}
+.media_box h1{  color: #00521b;  display: flex; justify-content: center; font-size: 27px;} 
+
+.delete_news h1{font-size: 25px; margin-top: 80px !important;}
+.axborot_postlar{padding: 40px 20px 20px 20px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; border-radius: 10px;
+   margin-top: 100px ; height: auto; margin-top: 0px !important;}
+
+
+.ststik_section input{width: 300px !important; height: 50px; background-color: white; border-radius: 10px; 
+border: 1px solid #000; color: #0048a7; padding: 0px 10px; font-size: 17px; font-weight: 600;}
+
+.all_media_box{padding: 20px; background-color: white; margin: 50px 0px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+
+.all_media{margin-top: 80px; }
+.all_media h1{font-size: 25px; margin-bottom: 30px; }
+.all_media_box  h2{color: #0048a7; display: flex; justify-content: center;}
+
+.image_row{display: flex; flex-wrap: wrap; align-items: center; margin-top: 30px;}
+.image_card{width: 30% !important; margin: 15px; padding: 15px; border: 1px solid #3f3f3f; border-radius: 10px; }
+.image_card img{width: 100%;}
+.media_button{width: 100%; display: flex; justify-content: flex-end; margin: 10px 0px 10px 0px;}
+.media_button button{padding: 12px ;  display: flex; align-items: center; justify-content: center; border: none; border-radius: 50%;
+   background-color: rgb(221, 0, 0); color: white; font-size: 18px;}
+
+.media_audio {width: 100%; display: flex; justify-content: space-between; align-items: center; margin: 10px 0px;}
+.media_audio button{padding: 0px 12px  ; height: 45px;  display: flex; align-items: center; justify-content: center; border: none; 
+   background-color: rgb(221, 0, 0); color: white; font-size: 18px;}
+.audio_card{ border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;}
+
+
+
+    .media_video{width: 100%; display: flex; justify-content: space-between; align-items: center; margin: 10px 0px;}
+
+.media_video button{padding: 0px 12px  ; height: 45px;  display: flex; align-items: center; justify-content: center; border: none; 
+   background-color: rgb(221, 0, 0); color: white; font-size: 18px;}
+.video_card{border: 2px dashed #146400 !important;  border-radius: 10px;}
+.addpost_box{padding: 50px; border: 2px solid #004906; border-radius: 10px;}
+
+.addpost_box h1{color: #14407e; font-size: 25px; margin-bottom: 20px;}
+.addpost_box h3{display: flex; }
+.addpost_box h3{font-size: 20px !important; color: #1c76f3 !important;}
+.addpost_box input{width: 250px !important; height: 50px; font-size: 18px;}
+
+.media_label {
+  width: 300px;
+  height: 120px;
+  background-color: #ffffff;
+  border: 2px dashed #003d7a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;   /* pastma-past joylashsin */
+  justify-content: center;  /* vertikal markaz */
+  align-items: center;      /* gorizontal markaz */
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-size: 16px;
+  color: #000 !important;
+}
+
+.file_input {
+  display: none; /* input ko‘rinmas bo‘lishi kerak */
+}
+
+.media_gpg input{padding: 0px 10px; color: #000; width: 400px !important;  margin-top: 20px; background-color: white; border: 1px solid #808080; border-radius: 10px;}
+.addpost_box h1{
+    display: flex; justify-content: flex-start; align-items: flex-start;
+}
+
+
+@media (max-width:1024px){
+
+   .new h1{font-size: 20px;}
+.media_box h1{font-size: 20px;}
+.image_card{width: 70% !important; margin: 10px;}
+.image_row{justify-content: center;}
+}
+@media (max-width:767px){
+   .addpost_box input{font-size: 15px;}
+   .news_img{height: 200px;}
+   .addpost_box h3{font-size: 14px !important;}
+   .image_card{width: 100% !important;}
+   .all_media_box h2{font-size: 16px;}
+   .media_button button{
+      font-size: 15px;
+   }
+   .media_button{margin: 5px;}
+   .media_audio button{height: 40px !important; font-size: 15px;}
+   .media_video button{height: 40px !important; font-size: 15px !important; }
+   .ilmiytaqiqot h1{font-size: 20px !important;}
+
+
+}
+
+
+
+
+
+
+
+

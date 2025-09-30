@@ -26,7 +26,7 @@
 
 .admin_container{width:100vw !important; height: 100vh; display: flex; overflow: hidden; position: relative;}
 
-.admin_menu{width: 40vw !important; padding: 40px 20px; background-color: #f2f6fc;
+.admin_menu{width: 30vw !important; padding: 30px 10px; background-color: #f2f6fc;
   height: 100vh;}
 .admin_box{width:100%  !important; padding: 40px; height: 100vh; overflow: hidden; overflow-y: auto; background-color: #f9f9f9!important; border-left: 2px solid #00458a;}
 
@@ -38,7 +38,7 @@
 height: 76vh; overflow: hidden; overflow-y: auto;}
 .admin_menu_list::-webkit-scrollbar{display: none !important;}
 .admin_menu_card{display: flex;  transition: 0.3s !important; align-items: center; margin: 15px 0px;
-   padding: 10px 5px 10px 10px;  border: 2px solid #3e9fff !important;  border: none; border-radius: 10px; cursor: pointer;}
+   padding: 10px 5px 10px 10px;  border: none; border-radius: 10px; cursor: pointer;}
 .admin_menu_card:hover{  margin-left: 10px !important;}
 
 .admin_menu_card span{color: #0056ac !important; display: flex; justify-content: center; align-items: center; font-size: 20px; margin-right: 15px; width: 50px !important; height: 50px !important; border-radius: 50%;
@@ -74,18 +74,53 @@ background-color: white;  padding: 10px; font-size: 15px; color: black; border: 
 }
 
 
+.open_talim{
+  display: flex ; flex-direction: column; margin-left: 30px; transition: 0.3s; text-align: center; border-left: 2px dashed #004992 ; transition: 0.3s;
+}
+.open_axborot{
+   display: flex ; flex-direction: column;  margin-left: 30px; transition: 0.3s; text-align: center; border-left: 2px dashed #004992 ; transition: 0.3s;
+}
+.open_axborot p{color: #0054a8; width: 100%; font-size: 17px; cursor: pointer; font-weight: 500; 
+margin:10px 0px!important;}
+.open_axborot p span{ color: #292929;}
+.open_talim p{color: #0054a8; width: 100%; font-size: 17px; cursor: pointer; font-weight: 500; 
+margin:10px 0px!important; }
+.open_talim p span{margin-left: 5px; color: #292929;}
+.open_talim p span img{width: 15px;  }
+.open_axborot p span{margin-left: 5px;}
+.open_arrow span{border: none; font-size: 25px; transition: 0.3s; }
 
+
+.menu_sections {
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  max-height: 90px; /* faqat card balandligi */
+}
+
+.menu_sections.open {
+  max-height: 600px; /* ochilganda yetarlicha katta */
+}
+
+.open_talim {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.menu_sections.open .open_talim {
+  opacity: 1;
+}
+.admin_menu_card{margin: 0px !important;padding: 5px !important; display: flex ; justify-content: space-between;}
 
 
 
 @media (max-width:1024px){
 .admin_box{width: 100vw !important;}
 .admin_menu{ position: fixed; padding: 20px; padding: 10px 5px 5px 5px !important;   z-index: 1000;
-  transition: width 0.3s ease; 
+  transition: width 0.3s ease;  
   overflow: hidden;}
   .admin_menu.closed{  position: relative !important; width: 12vw !important;   overflow: hidden;}
   .admin_menu.closed .none_media{display: none !important;}
-.admin_menu.open{width: 40vw !important; padding: 10px 20px 20px 20px !important;}
+.admin_menu.open{width: 45vw !important; padding: 10px 20px 20px 20px !important;}
 .admin_menu.open .admin_jsx{margin-right: 15px !important; }
 .admin_menu.closed .admin_menu_list{height: 85vh !important;}
 .admin_menu.open .admin_menu_list{height: 85vh !important;}
@@ -99,13 +134,14 @@ background-color: white;  padding: 10px; font-size: 15px; color: black; border: 
 font-size: 20px !important; display: flex; justify-content: center; align-items: center; margin-top: 10px !important;}
 .admin_logo img{width: 35px !important;}
 .admin_logo h1{font-size: 17px;}
-.admin_menu_card h2{font-size: 14px !important; display: flex ;}
+.admin_menu_card h2{font-size: 13px !important; display: flex ;}
 .admin_menu_card p{font-size: 10px; display: flex ;}
-.admin_menu_card{padding: 14px !important; height: 80px;}
+.admin_menu_card{padding: 0px 5px !important; height: 80px;}
 .admin_menu_card span{ margin-right: 5px !important;  font-size: 20px !important; width: 45px !important; border: none !important; height: 45px !important;}
-
-
-
+.open_talim{margin-left: 15px;}
+.menu_sections {  max-height: 80px;}
+.open_talim p {font-size: 15px;}
+.admin_menu.closed .menu_sections{max-height: 40px;}
 }
 @media(max-width:767px){
 
@@ -124,7 +160,8 @@ font-size: 20px !important; display: flex; justify-content: center; align-items:
 }
 
 .admin_menu.open {
-  width: 70vw !important;
+  width: 75vw !important;
+  padding: 10px !important;
 }
 
 .admin_jsx {
@@ -152,7 +189,7 @@ display: none !important;
 display: none !important;
 }
 .admin_jsx.open {
-  left: 70vw;
+  left: 75vw;
 }
 
 .admin_menu_card{
@@ -169,6 +206,9 @@ display: none !important;
 .admin_sms button{font-size: 13px !important; padding: 8px 0px;}
 .admin_sms input{height: 33px !important; width: 100% !important;}
 .adminpanel_box p{font-size: 12px;}
+.open_axborot p{font-size: 12px;}
+.open_axborot{margin-left: 15px;}
+.open_talim p{font-size: 12px;}
 }
 
 

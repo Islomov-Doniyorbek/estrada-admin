@@ -1,0 +1,93 @@
+.callcenter h1{
+    color: #00521b;  display: flex; justify-content: center; font-size: 27px;
+} 
+.qabul-post-person{padding: 20px;  border-radius: 10px; height: 100%; overflow: hidden;
+overflow-y: auto;}
+.qabul-post-person::-webkit-scrollbar{display: none !important;}
+.qabul-post-person h2{font-size: 25px; color: #00521b; margin-bottom: 30px;}
+.qabul-post_row{width: 100%; display: flex; align-items: center; flex-wrap: wrap; }
+.qabul-post_card{width: 31%; margin: 10px; padding: 15px; border-radius: 10px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+.qabul-post_card h2{font-size: 18px; color: #003d7a; margin-bottom: 20px;}
+.qabul-post_card p{font-size: 17px; margin-bottom: 20px !important; color: #000 !important;}
+.qabul-post_card span{font-size: 18px; width: 100%; display: flex; justify-content: space-between; align-items: center;}
+.qabul-post_card span b{padding: 10px; display: flex; justify-content: center; align-items: center;
+  color: white; font-size: 20px !important; border-radius: 50%; background-color: rgb(224, 0, 0);}
+.qabul-post_card span b:hover {background-color:rgb(83, 1, 1) !important;}
+
+.kvotalar{display: flex;align-items: center; width: 100%; margin-top: 80px;}
+.bakalavr_kvo{padding: 15px; background-color: rgb(250, 252, 253); margin: 0px 20px; width: 48%;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+.bakalavr_kvo h2{color:#00521b; display: flex; justify-content: center; font-size: 25px;}
+.kvota_row{display: flex; flex-direction: column; flex-wrap: wrap;}
+.kvota_card{padding: 10px; margin: 10px 0px; border: 1px dashed #616161; border-radius: 10px; background-color: white;}
+.kvota_card h3{color: #000; font-size: 20px;}
+.qabul_button{width: 100% ; display: flex; justify-content: end;}
+
+.qabul_dastur{padding: 15px; background-color: rgb(250, 252, 253); margin: 0px 20px; width: 100%;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+.qabul_dastur h2{color:#00521b; display: flex; justify-content: center;}
+.qabul_dastur_row{display: flex; flex-wrap: wrap;}
+.qabul_dastur_card{width: 48% !important; margin: 10px; padding: 10px; border: 1px dashed #616161; border-radius: 10px; background-color: white;}
+.qabul_dastur_card h3{color: #000;}
+
+.zoom-link-post{padding: 30px;  border-radius: 10px; margin-top: 80px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+} 
+.zoom-link-post h2{font-size: 25px; display: flex; justify-content: center; align-items: center; color: #004906; margin-bottom: 40px; }
+
+.qabul-post-box{padding: 30px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; border-radius: 10px; margin-top: 80px; }
+.qabul-post-box h1{margin-bottom:40px ;}
+
+
+.student_table {
+  background-color: #fff;
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  overflow: hidden; 
+}
+
+
+.student_table .ant-table,
+.student_table .ant-table-container,
+.student_table .ant-table-content,
+.student_table .ant-table-tbody > tr > td,
+.student_table .ant-table-thead > tr > th {
+  border: 1px solid #ddd;
+}
+
+
+.student_table .ant-table-thead > tr > th {
+  background-color: #f5f5f5; 
+  font-weight: 600;
+}
+
+/* Qator hover */
+.student_table .ant-table-tbody > tr:hover > td {
+  background-color: #fafafa;
+}
+
+
+
+@media (max-width:1024px){
+  .qabul-post_row{justify-content: center;}
+  .callcenter h1{font-size: 20px;}
+  .kvotalar{display: flex; flex-direction: column;}
+  .bakalavr_kvo{width: 100%;}
+  .qabul_dastur_card{width: 100% !important;}
+  .call-delete{width: 32px !important;}
+  .xabarlar_box h2{font-size: 21px !important;}
+  .ariza_row h1{font-size: 21px !important;}
+  .yutuq-card{width: 60% !important;}
+  .yutuq-list{padding: 10px !important; justify-content: center;}
+  .new_delete_icon span{display: flex; justify-content: center; padding: 13px !important;}
+
+}
+@media (max-width:767px){
+  .qabul-post_card{width: 100% !important;}
+  .bakalavr_kvo h2{font-size: 15px !important;}
+  .kvota_card h3{font-size: 14px !important;}
+  .qabul_dastur h2{font-size: 18px;}
+ .xabarlar_box{width: 100% !important;}
+}
+
+
+
+
+

@@ -1,8 +1,9 @@
 .adduser{width: 100%; height: auto; }
-.adduser_box{padding: 30px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;}
+.adduser_box{padding: 30px; background-color: white; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;}
 .adduser_box h1{font-size: 30px; color:	#15396A ; margin-bottom: 20px;} 
 .adduser_box h2{font-size: 20px; color: #15396A; margin: 30px 0px 10px 0px; font-weight: 600;}
-.adduser_box input{padding: 15px; width: 100%; background-color: white; font-size: 15px; color: black; border: none; border-radius: 10px;}
+.adduser_box input{padding: 15px; width: 100%; background-color: white; font-size: 15px; 
+ border: 1px solid #000; color: black;  border-radius: 10px;}
 
 
 .head_admin{display: flex; width: 100%;}
@@ -85,12 +86,7 @@
 
 
 
-.addpost_box{padding: 50px; border: 3px solid #004906; border-radius: 10px;}
 
-.addpost_box h1{color: #14407e; font-size: 25px; margin-bottom: 20px;}
-.addpost_box h3{display: flex; }
-.addpost_box h3{font-size: 20px !important; color: #1c76f3 !important;}
-.addpost_box input{width: 200px !important;}
 .addpost_image{width: 200px !important;}
 
 .forign_photo {
@@ -191,7 +187,7 @@
 
 
 .post_select{width: 30%; margin-top: 20px; display: flex;}
-.post_selected{width: 30%;}
+.post_selected{width: 30% !important;}
 .post_selected p{font-size: 18px; font-weight: 600; color:#113d7c;}
 .post_select span{font-size: 18px; font-weight: 500; color:#113d7c !important; }
 .post_select p{font-size: 20px;}
@@ -300,8 +296,8 @@
   } 
   
   .news_button button:hover{background-color: #024c96;}
-  .news_img{width: 100%; }
-  .news_img img{width: 100%; height: 180px; border-radius: 10px;}
+.news_img{height: 250px;  overflow: hidden;} 
+  .news_img img{width: 100%; height: 100%; border-radius: 10px;}
 
 .news_icons_box{display: flex; align-items: center; justify-content: space-between; } 
 
@@ -331,21 +327,7 @@
   display: flex;
 }
 
-.media_label {
-  width: 300px;
-  height: 120px;
-  background-color: #ffffff;
-  border: 2px dashed #003d7a;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-align: center;
-}
+
 
 
 .upload_button {
@@ -486,11 +468,8 @@ border: 2px dashed #003d7a; margin-top: 20px ;}
 
 .ilmiy-box h2{font-size: 22px; color: #003d7a; }
 
-.axborot_postlar{padding: 40px 20px 20px 20px; border: 3px solid #004906; border-radius: 10px;
-   margin-top: 100px ;}
-.axborot_postlar h1{font-size: 25px; display: flex; align-items: center; justify-content: center; 
-  color: #003264; margin-bottom: 30px;}
-.axborot_modal h1{font-size: 24px; color: #00521b;}
+
+.axborot_modal h1{font-size: 22px; color: #00521b;}
 .axborot_modal_button{display: flex; width: 100%; justify-content: center; align-items: center;}
 .axborot_modal_button button{padding: 10px 20px; font-size: 18px; font-weight: 600; border-radius: 10px; border: none;
 background-color: #00521b; color: white; margin: 0px 5px;
@@ -506,16 +485,9 @@ background-color: #00521b; color: white; margin: 0px 5px;
 
 
 .ilmiy_posts_box{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px;}
-.ilmiy_taqiqot_post{padding: 10px; border: 1px solid #00521b; border-radius: 10px; height: 290px !important;
-overflow: hidden; overflow-y: auto; }
-.ilmiy_taqiqot_post::-webkit-scrollbar{display: none !important;}
-.ilmiy_taqiqot_post h2{font-size: 25px !important; color: #003d7a !important; display: flex; justify-content: center; 
-margin: 30px 0px 50px 0px;}
+
 .ilmiy-card-row{display: flex; width: 100%; flex-wrap: wrap;}
-.ilmiy-taqiqot_card{display: flex; align-items: center;  justify-content: space-between; padding: 10px;
-border: 1px solid #003d7a; border-radius: 10px; margin: 10px;}
-.ilmiy-taqiqot_card a{font-size: 18px !important; color: #000; font-weight: 600; margin-left: 15px ;}
-.ilmiy-taqiqot_card a:hover{color: #00366d !important;}
+
 .ilmiy-taqiqot_button button{padding: 12px ; display: flex; align-items: center; justify-content: center; border: none; border-radius: 50%;
    background-color: rgb(221, 0, 0); color: white; font-size: 18px;}
 .ilmiy-taqiqot_button button:hover{background-color:rgb(82, 0, 0) !important ;}
@@ -524,7 +496,7 @@ border: 1px solid #003d7a; border-radius: 10px; margin: 10px;}
 
 .hujjat-bolimlar{display: flex; width: 100%; flex-wrap:wrap;}
 
-.talim-selected{width: 100%;  border: 1px solid #00366d !important;}
+.talim-selected{width: 30% !important;  border: 1px solid #00366d !important;}
 .talim_select_list{width: 100% !important;}
 .custom_select{margin: 0px !important;}
 .talim_list_h2{font-size: 20px; color: #004906;}
@@ -543,9 +515,9 @@ height: 260px; overflow: hidden; overflow-y: auto;}
   justify-content: center; margin: 0px 30px 30px 30px;}
 .talim_posts_row{display: flex; flex-wrap: wrap; width: 100%;}
 .talim_col{width: 100%; margin: 10px;padding: 20px; border: 1px solid #004906; border-radius: 10px;
-display: flex ; align-items: center;}
+display: flex ; align-items: center ; justify-content: space-between;}
 .talim_col p{font-size: 18px; font-weight: 600; color: #004906; margin: 10px 10px !important;}
-.talim_card{width: 100%; border: none; padding: 0px; margin: 0px;}
+.talim_card{width: 100%; border: none !important; padding: 0px; margin: 0px;}
 
 .talim_table_col{width: 100% !important;}
 .talim-language{color: rgb(38, 38, 255) !important; margin: 10px 0px !important ;}
@@ -558,7 +530,7 @@ display: flex ; align-items: center;}
 .qabul-select{width: 60%;}
 .qabul-selected{width: 60% !important;}
 .qabul-dastur{width: 50%;}
-.qabul-box{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px; }
+.qabul-box{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px; background-color: white;}
 .qabul-box h2{font-size: 25px; color: #004906; margin-bottom: 30px;}
 .qabul-input h3{ font-size: 20px; color: #004906; margin: 30px 0px 10px ; }
 .qabul-input input{width: 50%; padding: 15px; font-size: 18px; border: none; border-radius: 10px; border: 2px solid #003d7a;}
@@ -568,27 +540,11 @@ color: white; font-family: 600; font-size: 16px;}
 .qabul-box button:hover{background-color: #005cdd;}
 
 
-.qabul-post-box{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px; }
-.qabul-post-box h1{margin-bottom:40px ;}
-.qabul-post-person{padding: 30px; border: 2px solid #004906; border-radius: 10px; height: 50vh; overflow: hidden;
-overflow-y: auto;}
-.qabul-post-person::-webkit-scrollbar{display: none !important;}
-.qabul-post-person h2{font-size: 25px; color: #00521b; margin-bottom: 30px;}
 
-.qabul-post_row{width: 100%; display: flex; align-items: center; flex-wrap: wrap; }
-.qabul-post_card{width: 31%; margin: 10px; padding: 15px; border-radius: 10px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
-.qabul-post_card h2{font-size: 18px; color: #003d7a; margin-bottom: 20px;}
-.qabul-post_card p{font-size: 17px; margin-bottom: 20px !important; color: #000 !important;}
-.qabul-post_card span{font-size: 18px; width: 100%; display: flex; justify-content: space-between; align-items: center;}
-.qabul-post_card span b{padding: 10px; display: flex; justify-content: center; align-items: center;
-  color: white; font-size: 20px !important; border-radius: 50%; background-color: rgb(224, 0, 0);}
-.qabul-post_card span b:hover {background-color:rgb(83, 1, 1) !important;}
 .zoom-link{display: flex; flex-wrap: wrap; width: 100%;}
 .zoom-link-card{width: 48%; margin: 10px;}
 .zoom-link-card h2{font-size: 20px; margin: 20px 0px 10px; }
 .zoom-link-card input{padding: 15px; width: 100%; font-size: 18px; border: none; border-radius: 10px ; border: 2px solid #003d7a;}
-.zoom-link-post{padding: 30px; border: 2px solid #00366d; border-radius: 10px; margin-top: 80px; }
-.zoom-link-post h2{font-size: 25px; display: flex; justify-content: center; align-items: center; color: #004906; margin-bottom: 40px; }
 .zoom-post-card{display: flex;}
 .call-delete{width:38px; padding: 10px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background-color: rgb(224, 0, 0);
 color: white;
@@ -599,39 +555,13 @@ color: white;
 
 
 
-.xabarlar_box{background-color: white !important; border-radius: 10px; border: 2px dashed #003d7a !important; height: 90vh !important;
-  overflow-y: auto !important;  overflow: hidden;}
-  .xabarlar_box h2{font-size: 25px; color: #003d7a; display: flex; justify-content: center; margin-top: 30px;}
-.xabarlar_row{padding: 30px;}
-.xabarlar_card{padding: 30px ; border: 2px solid #004906; border-radius: 15px ; margin: 40px 0px;}
-.xabarlar_card h1{font-size: 17px !important; color: #00366d; margin-bottom: 10px;}
-.xabarlar_card p{margin: 5px 0px; font-weight: 600; color: #1d1d1d;}
-.xabarlar_card span{color: #003d7a; font-size: 17px !important; font-weight: 600; }
-.xabarlar_p{margin-bottom: 30px !important;}
 
-
-.ariza_box{padding: 20px; border: 2px solid #004ab1; border-radius: 15px;}
-.ariza_row h1{font-size: 27px; color: #003d7a; display: flex; justify-content: center;}
-
-.ariza_card_box{width: 100%; display: flex; flex-wrap: wrap; margin: 40px 0px;}
-.ariza_card{width: 47% !important; margin: 10px 0px;}
-.ariza_card h2{display: flex; align-items: center; font-size: 19px; color: #003d7a;}
-.ariza_card h2 p{color: #3d3d3d; margin-right: 5px;}
-
-
-
-
-
-.ariza_img_box{width: 100%; height: auto; display: flex; flex-wrap: wrap; }
-.ariza_img_card{width: 30%; margin: 20px 15px; padding: 10px; border: 1px solid #003d7a; border-radius: 10px;}
-.ariza_img_card h2{font-size: 16px; color: #004ab1; margin-bottom: 15px;}
-.ariza_img{width: 100%; background-image: url('../../images/Images/photo1.jpg') !important; height: 250px !important;  background-position: center !important; background-size: cover !important; background-repeat: no-repeat !important;}
 
 
 .tuzilma h1{width: 100%; display: flex; justify-content: center; align-items: center; padding: 20px 0px; font-size: 30px; border-radius: 10px;color: #00366d; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
 
 .tuzilma_rahbariyat{
-  padding: 25px; border: 2px solid #003d7a; border-radius: 10px; margin-top: 50px;
+  padding: 25px; border: 2px solid #003d7a; border-radius: 10px; margin-top: 50px; background-color: white;
 }
 
 
@@ -683,7 +613,7 @@ margin-bottom: 30px ; color: #004ab1;}
 .custom_select_list{height: auto !important;}
 .custom_select_list p{color: #000 !important;}
 .main-text-h1{margin: 20px 0px !important; font-size: 20px !important;}
-.addpost_box{padding: 20px !important;}
+.addpost_box{padding: 20px !important; }
 .forign_photo h3{font-size: 14px !important;}
 .post_select{width: 50% !important; }
 .post_selected{width: 50% !important;}
@@ -755,7 +685,7 @@ margin-bottom: 30px ; color: #004ab1;}
 .my_textarea{font-size: 15px !important; height: 200px !important;}
 .first_textarea{height: 100px !important; width: 100% !important;}
 .btn_add{font-size: 12px !important; padding: 10px !important;}
-.addpost_box h3{font-size: 12px !important;}
+
 .upload_button{font-size: 12px !important;}
 .axborot_postlar h1{font-size: 14px !important;}
 .axborot_postlar{width: 100% !important; border: 1px solid #004906 !important;}
@@ -785,8 +715,11 @@ margin-bottom: 30px ; color: #004ab1;}
   padding: 10px 15px !important;
 }
 .custom_select_box{font-size: 15px !important;}
-
-
+.xabarlar{padding: 0px !important;}
+.news_text{
+  height: 100px;
+}
+.event_text h2{font-size: 17px !important;}
 }
 
 

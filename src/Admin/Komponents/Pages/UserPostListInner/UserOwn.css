@@ -5,11 +5,11 @@
 .yellow_icon{background-color: rgb(247, 184, 12) !important;}
 .yellow_icon:hover{background-color: rgb(175, 128, 0) !important;}
 
-.userpost_card{width: 30% !important; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; margin: 10px 10px; background-color: white; padding: 10px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+.userpost_card{width: 31% !important; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; margin: 10px 10px; background-color: white; padding: 10px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
 
 .own_event_card{background-color: white !important;}
 
-.own_event_icon{display: flex; align-items: center;}
+.own_event_icon{display: flex; align-items: center; justify-content: space-between;}
 
 
 .own-announ-img{background-image: url('../../../images/Images/photo1.jpg'); height: 250px !important; background-position: center; background-size: cover; background-repeat: no-repeat;}
@@ -45,7 +45,8 @@
     background-color: white !important;
    padding: 20px !important; overflow: hidden; overflow-y: auto; border-radius: 10px;}
 
-.own_media_images h1{width: 100%; color: rgb(71, 71, 71);}
+.own_media_images h1{width: 100%; color: rgb(71, 71, 71); font-size: 25px; display: flex; justify-content: center;
+}
 
 .own-img-row{width: 100%; height: 100%;  display: flex; flex-wrap: wrap;}
 .own-img-col {
@@ -96,7 +97,8 @@
 .own_media_audio{margin-top: 50px;  padding: 20px;  margin-top: 80px; 
   overflow: hidden; overflow-y: auto;  box-shadow: #3e9fff 0px 0px 5px 0px, #3e9fff 0px 0px 1px 0px;
   border-radius: 10px; width: 100%; height: 50vh; background-color: white;}
-.own_media_audio h1{color: rgb(71, 71, 71) ;}
+.own_media_audio h1{width: 100%; color: rgb(71, 71, 71); font-size: 25px; display: flex; justify-content: center;
+}
 .own_audio_row{width: 100%; display: flex; flex-wrap: wrap;}
 .own_audio{width: 70%; margin: 10px; display: flex; align-items: center ;}
 .own_audio_box{width: 100% !important; display: flex; border: 1px solid #003d7a; padding: 15px !important; border-radius: 10px !important;}
@@ -134,8 +136,8 @@
 .other_news h1{font-size: 50px;}
 .other_news_box h1{font-size: 30px; color: #185249; font-family: 'Montserrat'; margin-bottom: 20px;}
 
-.event_row{margin-top: 40px; display: flex; flex-wrap: wrap !important; width: 100%; padding: 10px 100px !important;} 
-.event_card{width: 46%; margin: 10px 10px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px; border-radius: 10px; cursor: pointer;}
+.event_row{margin-top: 40px; display: flex; flex-wrap: wrap !important; width: 100%; padding: 10px 60px !important;} 
+.event_card{width: 31%; margin: 10px 10px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 10px; border-radius: 10px; cursor: pointer;}
 .event_text{padding: 20px; height: 120px; overflow: hidden; overflow-y: auto;}
 .event_text h2{    color: #1a5950; font-size: 18px;  font-family:'Montserrat'; margin-bottom: 30px;}
   
@@ -159,10 +161,184 @@
 
 
 
+.admincall h1{font-size: 25px; color: #0e5001; display: flex; justify-content: center; margin-bottom: 20px;}
+
+
+
+
+.admin-call-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* kartalar orasida teng bo‘shliq */
+  justify-content: flex-start;
+}
+
+.admin-call-card {
+width: 32% !important;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.admin-call-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.admin-call-card h2 {
+  font-size: 20px;
+  color: #004ab1;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.admin-call-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #444;
+  line-height: 1.4;
+}
+
+.admin-call-card span {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #222;
+  font-weight: 500;
+}
+
+.admin-call-card span b {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: rgb(224, 0, 0);
+  transition: background 0.2s ease-in-out, transform 0.2s;
+}
+
+.admin-call-card span b:hover {
+  background-color: rgb(150, 0, 0);
+  transform: scale(1.1); 
+}
+.image_media{ margin:40px 0px;
+ border-radius: 10px; padding: 20px; box-shadow: #004ab1 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;}
+.image_media h2{color: #004ab1; display: flex;  justify-content: center; font-size: 25px;
+width: 100%; padding: 15px 0px;  border-radius: 10px;
+box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px; }
+.usermedia h1{ color: #0e5001; display: flex; justify-content: center; font-size: 28px; margin-bottom: 40px;}
+
+.image_media_row{display: flex; flex-wrap: wrap; align-items: center; width: 100%;}
+.image_media_card{width: 32%; margin: 10px; padding: 10px;}
+.image_media_card img{width: 100%;}
+.audio_media_card{width: 30%; padding: 20px; border: 1px solid #003d7a; border-radius: 10px; margin: 0px 20px;} 
+.audio_media_card h3{color: #004ab1;}
+.audio_media_card button{width: 100%; background-color: rgb(211, 0, 0);} 
+
+
+
+
+
+.user_files {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.user_files > h1 {
+  font-size: 28px;
+  
+  margin-bottom: 25px;
+  color: #0e5001;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+border-radius: 10px;
+background-color: white
+}
+
+.files_menu {
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+  gap: 40px;
+}
+
+.files_menu div {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 400px;
+  margin: 20px 0px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.files_menu div h1 {
+  font-size: 20px;
+  color: #004ab1;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.files_menu button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid #004ab1;
+  background: #f7faff;
+  color: #004ab1;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.files_menu button:hover {
+  background: #004ab1;
+  color: #fff;
+}
+
+.files_menu button.active {
+  background: #004ab1;
+  color: #fff;
+}
+
+.content-box {
+  margin-top: 40px;
+  padding: 35px 25px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+.content-box b{color: #004ab1; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.fayllar_bolimi{margin-top: 30px !important;}
+
+
+
 
 @media (max-width:1024px){
-  .userpost_row{display: flex !important; flex-wrap: wrap !important;}
-.userpost_card{width: 46% !important;}
+  .userpost_row{display: flex !important; flex-wrap: wrap !important; justify-content: center;}
+.userpost_card{width: 70% !important;}
 .ilmiy-box h2{font-size: 16px !important;}
 .ilmiy-box button{padding: 10px 30px !important; font-size: 14px !important;}
 .ilmiy_taqiqot_post h2{font-size: 17px !important; margin: 15px 20px !important;}
@@ -194,7 +370,7 @@
 .qabul-box button{padding: 10px 15px !important; font-size: 14px !important;}
 .zoom-link-card input{width: 500px !important;}
 .qabul-post-person h2{font-size: 18px !important;}
-.qabul-post_card{width: 100% !important;}
+.qabul-post_card{width: 80% !important;}
 .ant-table-container{border: 1px solid #0e5001;}
 .ant-table-cell{font-size: 13px !important;}
 .tuzilma h1{font-size: 20px !important; padding: 15px 0px !important;}
@@ -221,7 +397,24 @@
 .event_card{width: 65% !important; margin: 10px 0px !important;}
 .event_row{width: 100%; display: flex; justify-content: center;}
 
+  .admin-call-card{width: 48% !important;}
+  .admin-call-card h2{font-size: 18px !important;}
 
+
+.image_media_row{
+  justify-content: center;
+}
+.audio_media_card{width: 70% !important; margin: 10px;}
+
+.files_menu div{
+     margin: 0px;
+}
+.admin_ilmiy_card{width: 100% !important;}
+
+.bakalavr_kvo h2{font-size: 20px;}
+.kvota_card h3{font-size: 18px;}
+.qabul_dastur_card h3{font-size: 20px !important;}
+.user_files > h1{font-size: 21px;}
 }
 @media (max-width:767px){
   .userpost_card{width: 100% !important;}
@@ -229,7 +422,7 @@
         display: flex !important;
         flex-wrap: wrap !important;
     }
-    .new_delete_icon span{color: white !important; padding: 8px 10px !important;}
+    .new_delete_icon span{color: white !important; padding: 12px 12px !important;}
 .ilmiy-box h2{font-size: 12px !important;}
 .ilmiy-input input{width: 100% !important;}
 .file_upload_label{width: 100% !important; height: 100px !important;}
@@ -251,7 +444,7 @@ margin-top: 10px !important;}
 .talim_col{margin: 5px !important; padding: 5px !important; display: flex; flex-direction: column;}
 .talim_col p{margin: 2px 0px !important; font-size: 12px !important;}
 .qabul h1{font-size: 15px !important;}
-.qabul-box{padding: 10px; border: 1px solid #00366d;}
+.qabul-box{padding: 20px 10px ; border: 1px solid #00366d;}
 .qabul-box h2{font-size: 14px !important; width: 100% !important; margin-bottom: 0px !important;}
 .qabul-input h3{font-size: 13px !important;}
 .qabul-kvota-box{
@@ -281,7 +474,7 @@ margin-top: 10px !important;}
 
 .zoom-link-post h2{font-size: 14px !important;}
 .zoom-link-post {
-  padding: 20px 10px;
+  padding: 20px 5px !important;
   width: 360px;
   overflow: hidden;
   overflow-x: auto;
@@ -328,7 +521,7 @@ margin-top: 10px !important;}
 .own-announ-icon{margin-top: 10px !important;}
 .yellow_icon{display: none !important;}
 
-.new_delete_icon span{font-size: 15px !important;}
+
 .own_doc_card{margin: 10px 0px !important;}
 .own_doc_card h4{font-size: 16px !important;}
 .own-doc-icon span{padding: 8px 10px  !important; font-size: 14px !important;}
@@ -348,6 +541,18 @@ margin-top: 10px !important;}
 .event_icons p span{font-size: 12px !important;}
 .own_icons_row {display: flex; position: absolute; right: 8px; bottom: 8px;}
 .news_inner_info{display: flex; flex-direction: column !important; padding: 10px 0px !important;}
-
+.own_icons_row span{margin: 0px 15px 15px 0px;}
+.other_news_box{margin-top: 20px !important;}
+.admincall h1{font-size: 16px;}
+.admin-call-card{width: 100% !important;}
+.user_files > h1{font-size: 18px; box-shadow: none !important;}
+.files_menu div h1{font-size: 16px;}
+.files_menu button{font-size: 15px !important;}
+.content-box{width: 330px !important; padding: 15px !important; font-size: 15px !important;}
+.kvotalar{margin-top: 10px !important;}
+.kvota_card h3{font-size: 13px !important;}
+.qabul_dastur_card h3{font-size: 13px !important;}
+.user_files{padding: 10px !important;}
+.bakalavr_kvo{margin: 10px 0px !important;}
 }
 
