@@ -89,11 +89,11 @@ margin:10px 0px!important; }
 .menu_sections {
   overflow: hidden;
   transition: max-height 0.4s ease;
-  max-height: 90px; /* faqat card balandligi */
+  max-height: 90px; 
 }
 
 .menu_sections.open {
-  max-height: 600px; /* ochilganda yetarlicha katta */
+  max-height: 600px; 
 }
 
 .open_talim {

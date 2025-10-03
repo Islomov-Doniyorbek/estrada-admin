@@ -130,7 +130,7 @@ const Ilmiytaqiqot = () => {
       <h2>Ilmiy Taqiqot uchun yuklangan hujjatlar</h2>
       <div className='ilmiy-card-row'>
       {data.map((post) => (
-      <div className='ilmiy-taqiqot_card'>
+      <div className='ilmiy-taqiqot_card '>
          {post.file && (
                 <a href={post.file.url} target="_blank" rel="noopener noreferrer">
                   {post.file.name}
